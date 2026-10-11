@@ -89,7 +89,7 @@ public class ItemController {
     }
 
     // PUT-2): 수정
-    @PutMapping("/update")
+    @PutMapping("/discount")
     public ResponseEntity<ResponseDto<ItemDto>> discountItem(
             @RequestParam Long id,
             @RequestParam Long percentage
